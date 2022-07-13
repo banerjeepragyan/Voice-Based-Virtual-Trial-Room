@@ -8,6 +8,8 @@ Our model aims at generating photo-realistic try-on result while preserving both
 
 We make use of Wav2Vec model for generating transcript for the user’s voice input.
 
+![alt text](https://github.com/banerjeepragyan/Voice-Based-Virtual-Trial-Room/blob/main/models/wav2vec2.png)
+
 ## Cloth Selection
 
 ● We employ CLIP Encoders to generate embeddings for clothes and user’s cloth description.
