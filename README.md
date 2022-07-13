@@ -12,11 +12,15 @@ We make use of Wav2Vec model for generating transcript for the user’s voice in
 
 ## Cloth Selection
 
+![alt text](https://github.com/banerjeepragyan/Voice-Based-Virtual-Trial-Room/blob/main/models/clip.png)
+
 ● We employ CLIP Encoders to generate embeddings for clothes and user’s cloth description.
 
 ● Most similar cloth is selected using cosine similarity between Image embeddings and text embedding.
 
 ## Overlaying Cloth Image
+
+![alt text](https://github.com/banerjeepragyan/Voice-Based-Virtual-Trial-Room/blob/main/models/acgpn.png)
 
 We overlay the cloth image using 3 modules involving
 
@@ -25,6 +29,12 @@ We overlay the cloth image using 3 modules involving
 ○ Clothes Warping Module (CWM)
 
 ○ Content Fusion Module (CFM).
+
+## Results
+
+The following are some of the results we achieved 
+
+![alt text](https://github.com/banerjeepragyan/Voice-Based-Virtual-Trial-Room/blob/main/results.png)
 
 ## References
 
