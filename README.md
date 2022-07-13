@@ -12,15 +12,13 @@ We make use of Wav2Vec model for generating transcript for the user’s voice in
 
 ## Cloth Selection
 
-![alt text](https://github.com/banerjeepragyan/Voice-Based-Virtual-Trial-Room/blob/main/models/clip.png)
-
 ● We employ CLIP Encoders to generate embeddings for clothes and user’s cloth description.
 
 ● Most similar cloth is selected using cosine similarity between Image embeddings and text embedding.
 
-## Overlaying Cloth Image
+![alt text](https://github.com/banerjeepragyan/Voice-Based-Virtual-Trial-Room/blob/main/models/clip.png)
 
-![alt text](https://github.com/banerjeepragyan/Voice-Based-Virtual-Trial-Room/blob/main/models/acgpn.png)
+## Overlaying Cloth Image
 
 We overlay the cloth image using 3 modules involving
 
@@ -30,6 +28,8 @@ We overlay the cloth image using 3 modules involving
 
 ○ Content Fusion Module (CFM).
 
+![alt text](https://github.com/banerjeepragyan/Voice-Based-Virtual-Trial-Room/blob/main/models/acgpn.png)
+
 ## Results
 
 The following are some of the results we achieved 
@@ -38,8 +38,8 @@ The following are some of the results we achieved
 
 ## References
 
-● CLIP: Learning Transferable Visual Models From Natural Language Supervision
+● Wav2Vec2 : [Unsupervised pre-training for speech recognition](https://arxiv.org/pdf/2006.11477.pdf)
 
-● Towards Photo-Realistic Virtual Try-On by Adaptively Generating↔Preserving Image Content
+● CLIP: [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/pdf/2103.00020.pdf)
 
-● Wav2Vec : Unsupervised pre-training for speech recognition
+● Towards [Photo-Realistic Virtual Try-On by Adaptively Generating↔Preserving Image Content](https://arxiv.org/pdf/2003.05863.pdf)
